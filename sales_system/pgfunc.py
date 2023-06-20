@@ -17,7 +17,12 @@ def fetch_data(tbln):
             return error
 
 
-products = fetch_data("products")
+pdef insert_products(v):
+    vs = str(v)
+    q = "insert into products(name,buying_price,selling_price,stock_quantity) "\
+        "values" + vs
+    cur.execute(q)
+    conn.commit()
+    return q
 
-sales = fetch_data("sales")
 
