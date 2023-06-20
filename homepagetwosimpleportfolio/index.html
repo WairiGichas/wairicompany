@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+.sect-one {
+    background-image: linear-gradient(rgba(43, 32, 167, 0.5), rgba(15, 164, 187, 0.5)), url("images/homepage.jpg");
+        background-size: 100% 100%;
+        height: 1000px;
+        width: 100%;
+        background-repeat: no-repeat;
+        margin-left: 0px;
+        position: relative;
+
+      }
+      .sect-one .part-one {
+        position: absolute;
+        color: rgb(245, 239, 244);
+        top: 20%;
+        left: 5%;
+        font-size: 28px;
+      }
+      .sect-one .part-two {
+        position: absolute;
+        color: rgb(245, 239, 244);
+        top: 30%;
+        left: 5%;
+        
+        font-size: 28px;
+      }
+      .sect-one .part-three p {
+        position: absolute;
+        color: white;
+       
+        top: 45%;
+        left: 10%;
+        right: 60%;
+        font-size: 20px;
+        
+      }
+      .sect-one .part-four {
+        position: absolute;
+        text-align: center;
+        top: 62%;
+        left: 10%;
+        
+    }
+    .sect-one .part-four .bt1 {
+       background-color: rgb(145, 196, 205);
+        text-align: center;
+        color: whitesmoke;
+        border-style: none;
+        font-size: 50px;
+      }
+
+.sect-one .part-one h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+      .sect-nav {
+        position: fixed;
+      
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1;
+      }
+      .sect-nav ul {
+        text-align: left;
+        margin-right: 50px;
+      }
+      .sect-nav ul li {
+       display: inline-block;
+        margin-right: 10px;
+      }
+      .sect-nav ul li a {
+       color: white;
+        font-size: 25px;
+       text-decoration: none;
+      }
+      .sect-nav .contact {
+        display: list-item;
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sect-nav">
+      <ul>
+        <li class="home"><a href="index.html">Home</a></li>
+        <li class="service"><a href="#">Service</a></li>
+        <li class="about"><a href="#">About</a></li>
+        <li class="contact"><a href="#">Contact Us</a></li>
+      </ul>
+      
+    </div>
+    <div class="sect-one">
+        <div class="part-one"><h2>Simple</h2></div>
+        <div class="part-two"><h2>Web Design</h2></div>
+        <div class="part-three">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam harum quasi alias dolores quisquam nemo odit sunt placeat sint minus!
+            </p>
+            <div class="part-four">
+                <button class="bt1">Portfolio</button>
+               
+              </div>
+
+    </div>
+  </body>
+</html>
